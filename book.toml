@@ -6,7 +6,6 @@ src = "src"
 title = "Informatica - Terzo Anno - Gestione della memoria"
 
 [build]
-build-dir = "docs"
 create-missing = false
 
 [output.html]
