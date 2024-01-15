@@ -42,3 +42,6 @@ Facciamo un esempio: immaginiamo una memoria RAM di 4GB, ovvero 2^32 bit. L'indi
 | ...        |
 | 0xFFFFFFFF |
 
+
+> **<p>Esercizio</p>** Un dispositivo ha una memoria fisica di 8GB. Qual è l'ultimo indirizzo della memoria fisica?
+Soluzione: 8GB è pari a 2^33, quindi l'ultimo indirizzo in binario si scrive con 33 cifre 1. Per la conversione in esadecimale, partendo da destra, a gruppetti di 4 bit, traduco nella corrispondente lettera. Il risultato finale è quindi *0x1FFFFFFFF*.

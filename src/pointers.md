@@ -52,7 +52,7 @@ L'operatore `*` si legge "stella" (oppure in inglese "star" o ancora operatore d
 
 Le variabili che memorizzano al loro interno un indirizzo di memoria si chiamano puntatori.
 
-Vediamo un esempio di codice in cui dichiariamo un puntatore, gli assegniamo l'indirizzo di 'a' e ne stampiamo sia il valore, sia il valore puntato.
+Vediamo un esempio di codice in cui dichiariamo un puntatore `p`, gli assegniamo l'indirizzo di `a` e ne stampiamo sia il valore, sia il valore puntato.
 
 ```c
 #include <stdio.h>
@@ -80,6 +80,6 @@ Il valore puntato da p è 4
 
 Potete sperimentare anche voi con questo esempio a [questo](https://godbolt.org/z/5ezhavErh) link.
 
-Potete inoltre visualizzare graficamente il comportamento dei puntatori con il seguente strumento. Cliccate next per vedere come si comporta la memoria in fase di esecuzione.
+Potete inoltre visualizzare graficamente il comportamento dei puntatori con il seguente strumento. Cliccate `Next >` e `< Prev` per vedere come si comporta la memoria in fase di esecuzione; nel menù a tendina "C/C++ details" selezionate "show memory addresses" per vedere gli indirizzi di memoria.
 
-<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Cstdio.h%3E%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20int%20%20%20%20%20%20%20%20%20%20%20%20a%20%3D%204%3B%0A%20%20%20%20int*%20p%20%3D%20%26a%3B%0A%0A%20%20%20%20printf%20%28%22Il%20valore%20di%20a%20%C3%A8%20%25d%5Cn%22,a%29%3B%0A%20%20%20%20printf%20%28%22L'indirizzo%20di%20a%20%C3%A8%20%25p%5Cn%22,%26a%29%3B%0A%0A%20%20%20%20printf%20%28%22Il%20valore%20di%20p%20%C3%A8%20%25p%5Cn%22,p%29%3B%0A%20%20%20%20printf%20%28%22Il%20valore%20puntato%20da%20p%20%C3%A8%20%25d%5Cn%22,*p%29%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cumulative=false&curInstr=0&heapPrimitives=nevernest&origin=opt-frontend.js&py=c_gcc9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>
+<iframe width="800" height="500" frameborder="0" src="https://pythontutor.com/iframe-embed.html#code=%23include%20%3Cstdio.h%3E%0A%0Aint%20main%28%29%20%7B%0A%20%20%20%20int%20%20%20%20%20%20%20%20%20%20%20%20a%20%3D%204%3B%0A%20%20%20%20int*%20p%20%3D%20%26a%3B%0A%0A%20%20%20%20printf%20%28%22Il%20valore%20di%20a%20%C3%A8%20%25d%5Cn%22,a%29%3B%0A%20%20%20%20printf%20%28%22L'indirizzo%20di%20a%20%C3%A8%20%25p%5Cn%22,%26a%29%3B%0A%0A%20%20%20%20printf%20%28%22Il%20valore%20di%20p%20%C3%A8%20%25p%5Cn%22,p%29%3B%0A%20%20%20%20printf%20%28%22Il%20valore%20puntato%20da%20p%20%C3%A8%20%25d%5Cn%22,*p%29%3B%0A%0A%20%20%20%20return%200%3B%0A%7D&codeDivHeight=400&codeDivWidth=350&cppShowMemAddrs=true&cumulative=false&curInstr=8&heapPrimitives=nevernest&origin=opt-frontend.js&py=c_gcc9.3.0&rawInputLstJSON=%5B%5D&textReferences=false"> </iframe>

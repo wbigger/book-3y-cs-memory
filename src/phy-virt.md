@@ -8,9 +8,11 @@ Quando noi eseguiamo un programma cliccando sull'icona del suo eseguibile, accad
 
 La zona di memoria in cui viene esattamente copiato il programma dipende da quale zona è libera nel preciso momento in cui viene eseguito, cambiando quindi ad ogni esecuzione. Questa cosa è molto scomoda in generale per il programmatore, che si troverà ogni volta ad avere dei puntatori a posizione diverse della memoria. Inoltre espone il sistema operativo a diversi tipi di attacchi informatici, perché svela delle informazioni sullo stato attuale della macchina.
 
-Per questi motivi, il sistema operativo crea uno spazio di indirizzamento virtuale, sempre uguale per tutte le applicazioni, e poi si occupa di mappare gli indirizzi virtuali in indirizzi fisici durante l'esecuzione. Più esattamente questa operazione è svolta dal kernel, la componente del sistema operativo che gestisce le componenti hardware.
+Per questi motivi, il sistema operativo crea uno spazio di indirizzamento virtuale, sempre uguale per tutte le applicazioni, e poi si occupa di mappare gli indirizzi virtuali in indirizzi fisici durante l'esecuzione. Più esattamente questa operazione è svolta dal **kernel**, la componente del sistema operativo che gestisce le componenti hardware.
 
-La virtualizzazione offre anche un altro vantaggio che avete studiato a sistemi e reti: la possibilità di mappare parte della memoria virtuale sull'hard-disk, in caso la memoria fisica fosse esaurita. Questa operazione si chiama _swap_.
+> Il kernel di riferimento da noi utilizzato è **Linux**, essendo open-source, gratuito ed è il più utilizzato in ambito server.
+
+La virtualizzazione offre anche un altro vantaggio: la possibilità di mappare parte della memoria virtuale sull'hard-disk, in caso la memoria fisica fosse esaurita. Questa operazione si chiama _swap_.
 
 <div>
 <p align="center">
