@@ -1,13 +1,7 @@
 # Sommario
 
 - [Benvenuti](./welcome.md)
-- [Funzioni](./functions.md)
-
-  - [Riduzione](./reduct.md)
-  - [Mappatura](./map.md)
-  - [Filtro](./filter.md)
-
-- [Strutture](./struct.md)
-
-  - [Stampa](./print.md)
-  - [Uso con le funzioni](./struct-func.md)
+- [La memoria](./memory.md)
+- [Memoria fisica e virtuale](./phy-virt.md)
+- [Segmenti di memoria](./segments.md)
+- [Puntatori in C](./pointers.md)
