@@ -3,11 +3,11 @@ authors = ["Claudio"]
 language = "it"
 multilingual = false
 src = "src"
-title = "Informatica - Terzo Anno - Gestione della memoria"
+title = "Informatica - Terzo Anno - Funzioni e strutture"
 
 [build]
-create-missing = false
+create-missing = true
 
 [output.html]
 additional-css = ["custom.css"]
-git-repository-url = "https://github.com/wbigger/book-3y-cs-memory"
+git-repository-url = "https://github.com/wbigger/book-3y-cs-funzioni"
